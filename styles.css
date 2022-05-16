@@ -1,0 +1,63 @@
+/*Selector {
+	Property:  value;
+}*/
+
+* {
+	text-align: right;
+}
+button:hover {
+	color: darkred;
+}
+body{
+	background-image: url(backgroundimg.jpg);
+	background-size: cover;
+
+}
+
+h2, p {
+	color:  rgba(104, 17, 63, .5);
+	text-align: center;
+	cursor:  pointer;
+}
+
+h3 p:hover {
+	color:  blue;
+	text-align: center;
+	
+}
+p {
+	color: deeppink;
+}
+
+li {
+	list-style: none;
+	display:  inline-block;
+}
+
+.webtext:last-child {
+	border:  5px dashed pink;
+}
+
+.active {
+	color: indianred;
+	text-decoration: underline;
+	text-transform:  uppercase;
+	line-height: 20px;
+	font-style:  italic;
+	font-weight:  bold;
+	font-size:  80%;
+	font-family: 'Poiret One', cursive;
+}
+
+#div1 {
+	background-color:  rgba(0, 0, 255, .2);
+	border:  5px solid purple;
+}
+
+#div2 {
+	background-color:  rgba(255, 0, 0, .2)
+}
+
+img {
+	float: left;
+}
